@@ -16,6 +16,10 @@ distances = {}
 
 # TODO здесь заполнение словаря
 
+distances['moscow_london'] = distances['london_moscow'] = (sites['Moscow'][0]-sites['London'][0]) ** 2 + (sites['Moscow'][1]-sites['London'][1]) ** 2
+distances['moscow_paris'] = distances['paris_moscow'] = (sites['Moscow'][0]-sites['Paris'][0]) ** 2 + (sites['Moscow'][1]-sites['Paris'][1]) ** 2
+distances['london_paris'] = distances['paris_london'] = (sites['Paris'][0]-sites['London'][0]) ** 2 + (sites['Paris'][1]-sites['London'][1]) ** 2
+
 print(distances)
 
 
