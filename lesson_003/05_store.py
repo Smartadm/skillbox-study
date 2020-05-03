@@ -48,6 +48,13 @@ store = {
 
 # TODO здесь ваш код
 
+for good in goods:
+    cost = 0
+    count = 0
+    for item in store[goods[good]]:
+        cost += item['price'] * item['quantity']
+        count += item['quantity']
+    print(good, '-', count, 'шт, стоимость ', cost, 'руб')
 
 
 
