@@ -12,3 +12,11 @@
 educational_grant, expenses = 10000, 12000
 
 # TODO здесь ваш код
+
+money_needed = 0
+i = 0
+while i < 10:
+    money_needed = money_needed + educational_grant - expenses
+    expenses = expenses * 1.03
+    i += 1
+print('Student needs', abs(round(money_needed,2)), 'money!')
