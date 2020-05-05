@@ -17,11 +17,11 @@
 
 # TODO здесь ваш код
 
-import my_burger
+from my_burger import *
 
-my_burger.add_bread(2)
-my_burger.add_mayonase(1)
-my_burger.add_cutlet(2)
-my_burger.add_onion(1)
-my_burger.add_cucumber(3)
-my_burger.add_cheese(2)
+add_bread(2)
+add_mayonase(1)
+add_cutlet(2)
+add_onion(1)
+add_cucumber(3)
+add_cheese(2)
